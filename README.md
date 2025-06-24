@@ -50,24 +50,24 @@
 <ol>
 <li class="my-0">
 <p><strong>Clone the repository:</strong></p>
-<pre><code class="language-sh">❯ git clone https://github.com/Nath9666/figureExcel
+<pre><code class="language-sh"> git clone https://github.com/Nath9666/figureExcel
 </code></pre>
 </li>
 <li class="my-0">
 <p><strong>Navigate to the project directory:</strong></p>
-<pre><code class="language-sh">❯ cd figureExcel
+<pre><code class="language-sh"> cd figureExcel
 </code></pre>
 </li>
 <li class="my-0">
 <p><strong>Install the dependencies:</strong></p>
-<pre><code class="language-sh">❯ pip install -r requirements.txt
+<pre><code class="language-sh"> pip install -r requirements.txt
 </code></pre>
 </li>
 </ol>
 <h3>Usage</h3>
 <p>Run the project with:</p>
 <p><strong>Using python:</strong></p>
-<pre><code class="language-sh">python -m app.main.py ./data/Classeur1.xlsx Date [[Données 1, 10, 15, Titre 1, #FF0000], [Données 2, 4, 15, Titre 2, #00FF00]]
+<pre><code class="language-sh">python -m app.main ./data/Classeur1.xlsx Date [[Données 1, 10, 15, Titre 1, #FF0000], [Données 2, 4, 15, Titre 2, #00FF00]]
 </code></pre>
 <h3>Testing</h3>
 <p>Figureexcel uses the {<strong>test_framework</strong>} test framework. Run the test suite with:</p>
@@ -141,15 +141,15 @@ Build figureExcel from the source and install dependencies:
 
 1. **Clone the repository:**
    ```sh
-   ❯ git clone https://github.com/Nath9666/figureExcel
+    git clone https://github.com/Nath9666/figureExcel
    ```
 1. **Navigate to the project directory:**
    ```sh
-   ❯ cd figureExcel
+    cd figureExcel
    ```
 1. **Install the dependencies:**
    ```sh
-   ❯ pip install -r requirements.txt
+    pip install -r requirements.txt
    ```
 
 
