@@ -4,12 +4,12 @@
 <h1>FIGUREEXCEL</h1>
 <p><em>Transform Data into Insights Instantly and Visually</em></p>
 
-<img alt="last-commit" src="https://img.shields.io/github/last-commit/Nath9666/figureExcel?style=flat&amp;logo=git&amp;logoColor=white&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Nath9666/figureExcel?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Nath9666/figureExcel?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="last-commit" src="https://img.shields.io/github/last-commit/Nath9666/figureExcel?style=flat&logo=git&logoColor=white&color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Nath9666/figureExcel?style=flat&color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Nath9666/figureExcel?style=flat&color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
 <p><em>Built with the tools and technologies:</em></p>
-<img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&amp;logo=Markdown&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&amp;logo=Python&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
 </div>
 <br>
 <hr>
@@ -76,3 +76,121 @@
 <hr>
 <div align="left" class=""><a href="#top">⬆ Return</a></div>
 <hr></div></div></div>
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+## Table of Contents
+
+
+* [Overview](#overview)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Testing](#testing)
+
+
+---
+
+
+## Overview
+
+
+figureExcel is a developer-focused tool that automates the generation and visualization of line charts from Excel data, making data analysis more efficient and visually consistent. It enables users to create dynamic, styled graphical representations of datasets with minimal manual effort.
+
+
+**Why figureExcel?**
+
+
+This project helps developers streamline data visualization workflows within Excel environments. The core features include:
+
+
+* 🎯 **[Feature]**: Automated creation of line charts from Excel data, saving time and reducing manual effort.
+* 🖍️ **[Feature]**: Customizable visual styles through configuration files, ensuring consistent and appealing graphics.
+* ⚙️ **[Feature]**: Command-line parameters for flexible, dynamic chart generation tailored to specific needs.
+* 📊 **[Feature]**: Integrated data processing, sorting, and plotting capabilities for comprehensive analysis.
+* 🧩 **[Feature]**: Modular architecture with clear configuration and core modules, facilitating easy maintenance and extension.
+
+
+---
+
+
+## Getting Started
+
+
+### Prerequisites
+
+
+This project requires the following dependencies:
+
+
+* **Programming Language:** Python
+* **Package Manager:** Conda
+
+
+### Installation
+
+
+Build figureExcel from the source and install dependencies:
+
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Nath9666/figureExcel
+   ```
+1. **Navigate to the project directory:**
+   ```sh
+   cd figureExcel
+   ```
+1. **Install the dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+
+### Usage
+
+
+Run the project with:
+
+
+**Using python:**
+
+
+```sh
+python main.py ./data/Classeur1.xlsx Date [[Données 1, 10, 15, Titre 1, #FF0000], [Données 2, 4, 15, Titre 2, #00FF00]]
+```
+
+
+### Testing
+
+
+Figureexcel uses the {**test_framework**} test framework. Run the test suite with:
+
+
+```sh
+python -m pytest
+```
+
+
+---
+
+
+
+---
