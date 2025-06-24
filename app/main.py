@@ -5,11 +5,11 @@ import colorama
 from colorama import Fore, Style
 import ast
 
-from configs import lire_config
-from utils import HexToRGB
-from excel import lire_donnees_excel, inserer_courbe_xlwings
-from params import check_params
-from logs import log_error, log_info, setup_logger
+from app.configs import lire_config
+from app.utils import HexToRGB
+from app.excel import lire_donnees_excel, inserer_courbe_xlwings
+from app.params import check_params
+from app.logs import log_error, log_info, setup_logger
 
 
 if __name__ == "__main__":

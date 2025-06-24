@@ -1,5 +1,5 @@
 import configparser
-from utils import HexToRGB
+from app.utils import HexToRGB
 
 def lire_config(chemin_config):
     config = configparser.ConfigParser()

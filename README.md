@@ -67,7 +67,7 @@
 <h3>Usage</h3>
 <p>Run the project with:</p>
 <p><strong>Using python:</strong></p>
-<pre><code class="language-sh">python main.py ./data/Classeur1.xlsx Date [[Données 1, 10, 15, Titre 1, #FF0000], [Données 2, 4, 15, Titre 2, #00FF00]]
+<pre><code class="language-sh">python -m app.main.py ./data/Classeur1.xlsx Date [[Données 1, 10, 15, Titre 1, #FF0000], [Données 2, 4, 15, Titre 2, #00FF00]]
 </code></pre>
 <h3>Testing</h3>
 <p>Figureexcel uses the {<strong>test_framework</strong>} test framework. Run the test suite with:</p>
@@ -81,18 +81,7 @@
 
 
 
-
-
-
-
-
 ---
-
-
-
-
-
-
 
 
 ## Table of Contents
@@ -152,15 +141,15 @@ Build figureExcel from the source and install dependencies:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/Nath9666/figureExcel
+   ❯ git clone https://github.com/Nath9666/figureExcel
    ```
 1. **Navigate to the project directory:**
    ```sh
-   cd figureExcel
+   ❯ cd figureExcel
    ```
 1. **Install the dependencies:**
    ```sh
-   pip install -r requirements.txt
+   ❯ pip install -r requirements.txt
    ```
 
 
@@ -192,5 +181,82 @@ python -m pytest
 ---
 
 
+
+---
+
+---
+
+## Table of Contents
+
+* [Overview](#overview)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Testing](#testing)
+
+---
+
+## Overview
+
+figureExcel is a developer-focused tool that automates the generation and visualization of line charts from Excel data, making data analysis more efficient and visually consistent. It enables users to create dynamic, styled graphical representations of datasets with minimal manual effort.
+
+**Why figureExcel?**
+
+This project helps developers streamline data visualization workflows within Excel environments. The core features include:
+
+* 🎯 **[Feature]**: Automated creation of line charts from Excel data, saving time and reducing manual effort.
+* 🖍️ **[Feature]**: Customizable visual styles through configuration files, ensuring consistent and appealing graphics.
+* ⚙️ **[Feature]**: Command-line parameters for flexible, dynamic chart generation tailored to specific needs.
+* 📊 **[Feature]**: Integrated data processing, sorting, and plotting capabilities for comprehensive analysis.
+* 🧩 **[Feature]**: Modular architecture with clear configuration and core modules, facilitating easy maintenance and extension.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+This project requires the following dependencies:
+
+* **Programming Language:** Python
+* **Package Manager:** Conda
+
+### Installation
+
+Build figureExcel from the source and install dependencies:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Nath9666/figureExcel
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd figureExcel
+   ```
+3. **Install the dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+### Usage
+
+Run the project with:
+
+**Using python:**
+
+```sh
+python main.py ./data/Classeur1.xlsx Date [[Données 1, 10, 15, Titre 1, #FF0000], [Données 2, 4, 15, Titre 2, #00FF00]]
+```
+
+### Testing
+
+Figureexcel uses the {**test_framework**} test framework. Run the test suite with:
+
+```sh
+python -m pytest
+```
+
+---
 
 ---
