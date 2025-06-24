@@ -71,7 +71,7 @@
 </code></pre>
 <h3>Testing</h3>
 <p>Figureexcel uses the {<strong>test_framework</strong>} test framework. Run the test suite with:</p>
-<pre><code class="language-sh">python test.py {test_framework}
+<pre><code class="language-sh">python -m pytest
 </code></pre>
 <hr>
 <div align="left" class=""><a href="#top">⬆ Return</a></div>
