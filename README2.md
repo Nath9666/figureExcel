@@ -66,7 +66,7 @@
 </ol>
 <h3>Usage</h3>
 <p>Run the project with:</p>
-<p><strong>Using <a href="https://docs.conda.io/">python</a>:</strong></p>
+<p><strong>Using python:</strong></p>
 <pre><code class="language-sh">python main.py ./data/Classeur1.xlsx Date [[Données 1, 10, 15, Titre 1, #FF0000], [Données 2, 4, 15, Titre 2, #00FF00]]
 </code></pre>
 <h3>Testing</h3>
